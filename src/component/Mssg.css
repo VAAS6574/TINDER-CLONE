@@ -1,0 +1,36 @@
+.mssg
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    height: 70px;
+    border-bottom: 1px solid #fafafa;
+    padding: 20px;
+}
+ .mssg__details { 
+    display:block; 
+    flex:1;
+    text-align: left;
+ } 
+
+
+.mssg__details > p {
+    color: gray;
+}
+
+.mssg__image {
+    margin-right: 20px;
+    padding-bottom: 25px;
+}
+.mssg__time {
+    color: gray;
+}
+
+.mssg {
+    font-size: medium;
+}
+
+.mssg__details > h2 {
+    font-size: larger;
+}
